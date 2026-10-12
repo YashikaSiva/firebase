@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Job Application Dashboard</title>
+</head>
+<body>
+
+    <h2>Job Application Dashboard</h2>
+
+    <p id="welcome"></p>
+    <button id="logoutBtn">Logout</button>
+
+    <hr>
+
+    <h3>Application Form</h3>
+
+    <input type="text" id="name" placeholder="Full Name">
+    <br><br>
+
+    <input type="text" id="job" placeholder="Job Role">
+    <br><br>
+
+    <input type="text" id="qualification"
+           placeholder="Qualification">
+    <br><br>
+
+    <button id="saveBtn">Save Application</button>
+    <button id="clearBtn">Clear</button>
+
+    <p id="message"></p>
+
+    <hr>
+
+    <h3>Application Records</h3>
+
+    <table border="1" cellpadding="8">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Job</th>
+                <th>Qualification</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+
+        <tbody id="applicationList"></tbody>
+    </table>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
